@@ -1,6 +1,16 @@
 ---
 name: expert-crosscheck
-description: Expert-perspective crosscheck of the user's proposed plan. Use when the user states a goal together with their own approach/methodology/design for achieving it. Before executing, answer four questions: (1) what top experts in the field would do that the user did not ask for; (2) which primary/raw sources experts would start from instead of pre-digested secondhand material; (3) the specific tools and methods experts would use for this goal; (4) besides the AI and the user, what could prove the result is right. Deliver a verdict, then wait for user confirmation before executing. Trigger phrases include "crosscheck my plan", "is my approach sound", "what would an expert do", "review this before we build".
+description: >-
+  Expert-perspective crosscheck of the user's proposed plan. Use when the user
+  states a goal together with their own approach, methodology, or design for
+  achieving it. Before executing, answer four questions: (1) what top experts
+  in the field would do that the user did not ask for; (2) which primary/raw
+  sources experts would start from instead of pre-digested secondhand material;
+  (3) the specific tools and methods experts would use for this goal;
+  (4) besides the AI and the user, what could prove the result is right.
+  Deliver a verdict, then wait for user confirmation before executing.
+  Trigger phrases include "crosscheck my plan", "is my approach sound",
+  "what would an expert do", "review this before we build".
 ---
 
 # Expert Crosscheck: Four Questions Before Execution
