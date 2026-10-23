@@ -3,14 +3,13 @@ name: expert-crosscheck
 description: >-
   Expert-perspective crosscheck of the user's proposed plan. Use when the user
   states a goal together with their own approach, methodology, or design for
-  achieving it. Before executing, answer four questions: (1) what top experts
-  in the field would do that the user did not ask for; (2) which primary/raw
-  sources experts would start from instead of pre-digested secondhand material;
-  (3) the specific tools and methods experts would use for this goal;
-  (4) besides the AI and the user, what could prove the result is right.
-  Deliver a verdict, then wait for user confirmation before executing.
-  Trigger phrases include "crosscheck my plan", "is my approach sound",
-  "what would an expert do", "review this before we build".
+  achieving it. Before executing, answers four questions: missing expert
+  practices, primary vs. secondhand sources, expert tools and methods, and
+  third-party verification. Delivers a verdict, then waits for user
+  confirmation before executing. Trigger phrases include "crosscheck my plan",
+  "is my approach sound", "sanity check my plan", "second opinion on my
+  approach", "stress test my plan", "red team my plan", "what would an
+  expert do".
 ---
 
 # Expert Crosscheck: Four Questions Before Execution
@@ -78,5 +77,4 @@ Core rule: **when the user gives a goal plus their own plan, do not execute imme
 
 - No flattery. Credit what is solid, name what is wrong. Never use the cushioning pattern "overall it's quite good, but...".
 - For time-sensitive facts (markets, regulations, versions, news), search before answering; label anything answered from memory as "unverified".
-- Stop after the four questions — do not start executing the plan in the same turn.
 - If the user explicitly says "skip the check, just do it", bypass this workflow.
